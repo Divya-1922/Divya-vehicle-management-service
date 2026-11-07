@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insert Records</title>
+</head>
+<body>
+
+<h1>VEHICLE SERVICE CENTRE MANAGEMENT SYSTEM</h1>
+<hr>
+
+<a href="index.html">Home</a> |
+<a href="list.html">List Records</a> |
+<a href="insert.html">Insert Records</a> |
+<a href="update.html">Update Records</a> |
+<a href="delete.html">Delete Records</a>
+
+<hr>
+
+<h2>Insert Customer</h2>
+
+<form action="/customers" method="post">
+
+    Customer ID:
+    <input type="number" name="customer_id"><br><br>
+
+    Customer Name:
+    <input type="text" name="customer_name"><br><br>
+
+    Customer Phone:
+    <input type="text" name="customer_ph"><br><br>
+
+    Customer Email:
+    <input type="email" name="customer_email"><br><br>
+
+    Customer Address:
+    <input type="text" name="customer_addr"><br><br>
+
+    <button type="submit">Add Customer</button>
+
+</form>
+
+<hr>
+
+<h2>Insert Vehicle</h2>
+
+<form action="/vehicles" method="post">
+
+    Vehicle ID:
+    <input type="number" name="vehicle_id"><br><br>
+
+    Customer ID:
+    <input type="number" name="customer_id"><br><br>
+
+    Vehicle Number:
+    <input type="text" name="vehicle_number"><br><br>
+
+    Vehicle Model:
+    <input type="text" name="vehicle_model"><br><br>
+
+    Vehicle Type:
+    <input type="text" name="vehicle_type"><br><br>
+
+    <button type="submit">Add Vehicle</button>
+
+</form>
+
+<hr>
+
+<h2>Insert Service</h2>
+
+<form action="/services" method="post">
+
+    Service ID:
+    <input type="number" name="service_id"><br><br>
+
+    Vehicle ID:
+    <input type="number" name="vehicle_id"><br><br>
+
+    Service Type:
+    <input type="text" name="service_type"><br><br>
+
+    Service Date:
+    <input type="date" name="service_date"><br><br>
+
+    Description:
+    <input type="text" name="description"><br><br>
+
+    Service Charge:
+    <input type="number" name="service_charge"><br><br>
+
+    Status:
+    <input type="text" name="status"><br><br>
+
+    <button type="submit">Add Service</button>
+
+</form>
+
+<hr>
+
+<h2>Insert Payment</h2>
+
+<form action="/payments" method="post">
+
+    Pay ID:
+    <input type="number" name="pay_id"><br><br>
+
+    Service ID:
+    <input type="number" name="service_id"><br><br>
+
+    Amount:
+    <input type="number" name="amount"><br><br>
+
+    Payment Date:
+    <input type="date" name="payment_date"><br><br>
+
+    Payment Method:
+    <input type="text" name="payment_method"><br><br>
+
+    <button type="submit">Add Payment</button>
+
+</form>
+
+</body>
+</html>

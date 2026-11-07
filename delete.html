@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Records</title>
+</head>
+<body>
+
+<h1>VEHICLE SERVICE CENTRE MANAGEMENT SYSTEM</h1>
+<hr>
+
+<a href="index.html">Home</a> |
+<a href="list.html">List Records</a> |
+<a href="insert.html">Insert Records</a> |
+<a href="update.html">Update Records</a> |
+<a href="delete.html">Delete Records</a>
+
+
+<hr>
+
+<h2>Delete Customer</h2>
+
+<form action="/customers/delete" method="post">
+
+    Customer ID:
+    <input type="number" name="customer_id" required>
+
+    <button type="submit">Delete Customer</button>
+
+</form>
+
+<hr>
+
+<h2>Delete Vehicle</h2>
+
+<form action="/vehicles/delete" method="post">
+
+    Vehicle ID:
+    <input type="number" name="vehicle_id" required>
+
+    <button type="submit">Delete Vehicle</button>
+
+</form>
+
+<hr>
+
+<h2>Delete Service</h2>
+
+<form action="/services/delete" method="post">
+
+    Service ID:
+    <input type="number" name="service_id" required>
+
+    <button type="submit">Delete Service</button>
+
+</form>
+
+<hr>
+
+<h2>Delete Payment</h2>
+
+<form action="/payments/delete" method="post">
+
+    Pay ID:
+    <input type="number" name="pay_id" required>
+
+    <button type="submit">Delete Payment</button>
+
+</form>
+
+</body>
+</html>
